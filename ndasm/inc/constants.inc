@@ -1,0 +1,41 @@
+; VMNDH constants
+; written by virtualabs
+
+#define STDIN		"#0"
+#define STDOUT		"#1"
+#define STDERR		"#2"
+
+#define CRLF		"0x0A"
+
+#define O_CREAT 		"#4"
+#define O_EXCL			"#8"
+#define O_TRUNC   	"#16"
+#define O_APPEND  	"#32"
+#define O_RDONLY    "#0"
+#define O_WRONLY    "#1"
+#define O_RDWR      "#2"
+
+#define SEEK_SET	"#0"
+#define SEEK_CUR	"#1"
+#define SEEK_END	"#2"
+
+#define SYS_EXIT 	"#x01"
+#define SYS_OPEN 	"#x02"
+#define SYS_READ 	"#x03"
+#define SYS_WRITE	"#x04"
+#define SYS_CLOSE	"#x05"
+#define SYS_SETUID	"#x06"
+#define SYS_SETGID	"#x07"
+#define SYS_DUP2	"#x08"
+#define SYS_SEND	"#x09"
+#define SYS_RECV	"#x0A"
+#define SYS_SOCKET	"#x0B"
+#define SYS_LISTEN	"#x0C"
+#define SYS_BIND	"#x0D"
+#define SYS_ACCEPT	"#x0E"
+#define SYS_CHDIR	"#x0F"
+#define SYS_CHMOD	"#x10"
+#define SYS_LSEEK	"#x11"
+#define SYS_GETPID	"#x12"
+#define SYS_GETUID	"#x13"
+#define SYS_PAUSE	"#x14"
